@@ -1,0 +1,12 @@
+@import "../global-styles/variables";
+
+.pokemon {
+
+    &__error-msg {
+        color: $red-01;
+    }
+
+    &__name {
+        text-transform: capitalize;
+    }
+}

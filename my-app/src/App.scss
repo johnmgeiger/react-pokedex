@@ -1,0 +1,27 @@
+@import "./global-styles/variables";
+
+.app {
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+
+  background-color: $white-02;
+
+  &__container {
+    min-height: 100vh;
+    width: 80vw;
+    max-width: 800px;
+    padding: 15px;
+
+    display: flex;
+    flex-direction: column;
+
+    background-color: $white-01;
+  }
+
+  &__header {
+    color: $gray-01;
+    margin-bottom: 15px;
+  }
+}
